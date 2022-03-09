@@ -1,8 +1,6 @@
 package com.zad1.zad1.service;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
@@ -19,7 +17,7 @@ class Status {
 public class Service {
     private static Users users_db = new Users();
 
-    @GetMapping("/register")
+    @PostMapping("/register")
     public Status register(@RequestParam(required = false) String name){
         if (name == null) {
             return new Status(0, "ERROR - no name passed!");
@@ -27,7 +25,7 @@ public class Service {
         return new Status(this.users_db.get_counter(name), "OK");
     }
 
-    @GetMapping("/delete")
+    @DeleteMapping("/delete")
     public void delete(@RequestParam(required = false) String name){
         this.users_db.remove_name(name);
     }
