@@ -1,0 +1,26 @@
+
+.container {
+  background-color: rgb(255, 250, 235);
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  margin: 15px auto;
+  width: 50vh;
+  padding: 100px;
+  align-items: center;
+  height:100vh;
+}
+
+body {
+  background-color: #fff9e7;
+  align-items: center;
+}
+
+.header {
+  font-size: 35px;
+  letter-spacing: 1px;
+  margin: 0px 0;
+  text-align: center;
+  border-bottom: 2px solid #bbb;
+  padding-bottom: 10px;
+}

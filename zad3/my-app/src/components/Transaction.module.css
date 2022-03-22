@@ -1,0 +1,26 @@
+.container {
+    background-color: rgb(241, 241, 241);
+    padding: 5px;
+    margin: 10px auto;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+.money_p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #3ecc79;
+}
+
+.money_m {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #c04537;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: #9c88ff;
+    width: 20%;
+}

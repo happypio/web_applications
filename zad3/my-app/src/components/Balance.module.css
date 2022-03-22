@@ -1,0 +1,28 @@
+.container {
+    background-color: rgb(241, 241, 241);
+    padding: 20px;
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 0;
+}
+
+
+.money_p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    color: #3ecc79;
+    text-align: center;
+}
+.money_m {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+    color: #c04537;
+    text-align: center;
+}
+h4 {
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
