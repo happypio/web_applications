@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![application](https://github.com/happypio/web_applications/blob/master/zad3/my-app/app.jpg)
+![application](https://github.com/happypio/web_applications/blob/main/zad3/my-app/app.jpg)
 
 ## Available Scripts
 
