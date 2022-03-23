@@ -24,3 +24,8 @@
     background-color: #9c88ff;
     width: 20%;
 }
+
+.btn:hover{
+    background-color: #4c7aaf;
+    color: white;
+}
